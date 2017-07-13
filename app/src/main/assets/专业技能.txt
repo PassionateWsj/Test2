@@ -1,0 +1,15 @@
+能熟练使用Java语言，有面向对象编程思想，有良好的编码习惯；
+掌握Android基本控件与布局的使用；
+掌握Hanlder（消息传递机制）、AsyncTask（异步任务）的原理和使用；
+掌握Android事件分发，事件拦截，事件消费机制；
+掌握Volley、ImageLoader、Picasso、Glide、Fresco 、OkHttp3、Retrofit及Retrofit与RxJava结合请求网络数据；
+掌握Android 5.0 Material Design设计风格新特性，如:CardView，Coordinatorlayout，NestedScrollView等控件；
+掌握MVC、MVP软件设计模式；
+掌握常用的屏幕适配及国际化方法。
+掌握观察者、单例、工厂、建造者等设计模式；
+掌握快速、插入、选择、冒泡等几种常见算法；
+掌握第三方SDK的集成使用如:极光消息推送、友盟社会化分享及登录、百度地图、支付宝支付、微信支付；
+掌握使用VideoView、MediaPlayer和SufaceView视频播放以及使用Vitamio进行视频播放；
+掌握WebView与JS的简单交互；
+掌握SVN及Git版本控制工具的使用，协助团队开发；
+掌握Android最新指定官方语言kotlin的基本语法；

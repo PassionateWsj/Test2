@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context="com.jameswong.test.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/title"
+            android:textColor="@color/titleColor"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="个人资料"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/selfIntroduction"
+                android:text="姓   名："/>
+
+            <TextView
+                android:id="@+id/tv_profession"
+                style="@style/selfIntroduction"
+                android:text="专   业："/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_gender"
+                style="@style/selfIntroduction"
+                android:text="性   别："/>
+
+            <TextView
+                android:id="@+id/tv_education"
+                style="@style/selfIntroduction"
+                android:text="学   历："/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_phone"
+                style="@style/selfIntroduction"
+                android:text="电   话："/>
+
+            <TextView
+                android:id="@+id/tv_mail"
+                style="@style/selfIntroduction"
+                android:text="邮   箱："/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_old"
+                style="@style/selfIntroduction"
+                android:text="年龄："/>
+            <TextView
+                android:id="@+id/tv_years_of_work"
+                style="@style/selfIntroduction"
+                android:text="工作年限："/>
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="求职意向"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/tv_intention"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="期望职位："/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="专业技能"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/tv_skill_container"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="工作经历"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/tv_experience"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="项目经验"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+        <TextView
+            android:id="@+id/tv_project_experience"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            style="@style/subTitle"
+            android:text="Github地址"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/tv_github"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="职业规划"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+        <TextView
+            android:id="@+id/tv_career_planning"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            style="@style/subTitle"
+            android:text="自我评价"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/line"/>
+        <TextView
+            android:id="@+id/tv_self_evaluation"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
