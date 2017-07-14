@@ -10,3 +10,8 @@
 - ![](http://i.imgur.com/1fPMvbG.png)
 https://github.com/PassionateWsj/CodeDiary
 用MVP简单实现了下，网络请求没有用Retrofit和RxJava，就拿以前封装过的OKHttp工具类来用了
+
+
+### 作品展示
+这是之前做过的App，正好有个gif，不知道能否播放
+- ![](https://github.com/PassionateWsj/Test2/blob/master/app/src/main/assets/%E5%B0%8F%E7%94%B5%E5%BD%B1%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6.gif)
