@@ -13,6 +13,6 @@ https://github.com/PassionateWsj/CodeDiary
 
 
 ### 作品展示
-这是之前做过的App，正好还留着录下的gif，太大了有点卡。后面也有下载链接，可以下载下来看，可能会耽误您几分钟时间，请您谅解。
+这是之前做过的App，正好还留着录下的gif，太大了有点卡，加载一会就流畅了。后面也有下载链接，可以下载下来看，可能会耽误您几分钟时间，请您谅解。
 - ![](https://github.com/PassionateWsj/Test2/blob/master/app/src/main/assets/%E5%B0%8F%E7%94%B5%E5%BD%B1%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6.gif)
 - https://github.com/PassionateWsj/Test2/blob/master/app/src/main/assets/%E5%B0%8F%E7%94%B5%E5%BD%B1%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6.gif
